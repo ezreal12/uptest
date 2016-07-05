@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ijkplayer-armv7a-release/ijkplayer-armv7a-release.iml" filepath="$PROJECT_DIR$/ijkplayer-armv7a-release/ijkplayer-armv7a-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ijkplayer-exo-release/ijkplayer-exo-release.iml" filepath="$PROJECT_DIR$/ijkplayer-exo-release/ijkplayer-exo-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ijkplayer-java-release/ijkplayer-java-release.iml" filepath="$PROJECT_DIR$/ijkplayer-java-release/ijkplayer-java-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uptest.iml" filepath="$PROJECT_DIR$/uptest.iml" />
     </modules>
   </component>
 </project>
