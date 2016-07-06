@@ -9,18 +9,20 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/ijkplayer-armv7a-release" />
-            <option value="$PROJECT_DIR$/ijkplayer-exo-release" />
-            <option value="$PROJECT_DIR$/ijkplayer-java-release" />
+            <option value="$PROJECT_DIR$/ijkplayer-armv7a-debug" />
+            <option value="$PROJECT_DIR$/ijkplayer-example" />
+            <option value="$PROJECT_DIR$/ijkplayer-exo-debug" />
+            <option value="$PROJECT_DIR$/ijkplayer-java-debug" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/ijkplayer-armv7a-release" />
-            <option value="$PROJECT_DIR$/ijkplayer-exo-release" />
-            <option value="$PROJECT_DIR$/ijkplayer-java-release" />
+            <option value="$PROJECT_DIR$/ijkplayer-armv7a-debug" />
+            <option value="$PROJECT_DIR$/ijkplayer-example" />
+            <option value="$PROJECT_DIR$/ijkplayer-exo-debug" />
+            <option value="$PROJECT_DIR$/ijkplayer-java-debug" />
           </set>
         </option>
       </GradleProjectSettings>
