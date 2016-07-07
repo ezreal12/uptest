@@ -1,2 +1,1 @@
-include ':app', ':ijkplayer-armv7a-debug', ':ijkplayer-exo-debug', ':ijkplayer-java-debug'
-include ':ijkplayer-example'
+include ':app', ':ijkplayer-armv7a-debug',':ijkplayer-java-debug'

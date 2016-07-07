@@ -1,28 +1,21 @@
 /*
- * Copyright (C) 2015 Zhang Rui <bbcallen@gmail.com>
  *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
+ * 사이즈 조절용 헬퍼
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
  *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ *
+ *
+ *
  */
 
 package com.example.park.myapplication.widget.media;
 
-import android.content.Context;
-import android.support.annotation.NonNull;
+
 import android.view.View;
 
 import java.lang.ref.WeakReference;
 
-import com.example.park.myapplication.R;
+
 
 public final class MeasureHelper {
     private WeakReference<View> mWeakView;
@@ -216,32 +209,5 @@ public final class MeasureHelper {
         mCurrentAspectRatio = aspectRatio;
     }
 
-    @NonNull
-    public static String getAspectRatioText(Context context, int aspectRatio) {
-        String text;
-        switch (aspectRatio) {
-            case IRenderView.AR_ASPECT_FIT_PARENT:
-                text = context.getString(R.string.VideoView_ar_aspect_fit_parent);
-                break;
-            case IRenderView.AR_ASPECT_FILL_PARENT:
-                text = context.getString(R.string.VideoView_ar_aspect_fill_parent);
-                break;
-            case IRenderView.AR_ASPECT_WRAP_CONTENT:
-                text = context.getString(R.string.VideoView_ar_aspect_wrap_content);
-                break;
-            case IRenderView.AR_MATCH_PARENT:
-                text = context.getString(R.string.VideoView_ar_match_parent);
-                break;
-            case IRenderView.AR_16_9_FIT_PARENT:
-                text = context.getString(R.string.VideoView_ar_16_9_fit_parent);
-                break;
-            case IRenderView.AR_4_3_FIT_PARENT:
-                text = context.getString(R.string.VideoView_ar_4_3_fit_parent);
-                break;
-            default:
-                text = context.getString(R.string.N_A);
-                break;
-        }
-        return text;
-    }
+
 }
